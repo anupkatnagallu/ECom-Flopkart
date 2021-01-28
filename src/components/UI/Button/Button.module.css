@@ -1,0 +1,20 @@
+.Button {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: transparent;
+}
+
+.ButtonRed {
+    background-color: rgb(146, 50, 50);
+}
+
+.ButtonBrown {
+    background-color: #40241a;
+}
+
+.Margin {
+    margin-top: 20px;
+}

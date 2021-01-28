@@ -1,0 +1,12 @@
+.Home {
+    position: relative;
+    min-height: 100vh;
+}
+
+.HomeItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}

@@ -1,0 +1,28 @@
+.CartItemRow {
+    display: flex;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border-bottom: 1px solid #9c786c;
+    height: 50px;
+}
+
+.ItemName {
+    flex: 2;
+}
+
+.ItemPrice {
+    border-left: 1px solid #9c786c;
+    border-right: 1px solid #9c786c;
+    flex: 2;
+    height: 100%;
+    padding-top: 13px;
+}
+
+.ButtonDiv {
+    flex: 1;
+    padding-top: 7px;
+}
+
+.CartItemRow p {
+    margin: auto;
+}

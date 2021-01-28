@@ -1,0 +1,16 @@
+.Footer {
+    background-color: #40241a;
+    color: white;
+    font-size: large;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.FooterHome {
+    bottom: -1;
+}
+
+.FooterAddItem {
+    bottom: 0;
+}

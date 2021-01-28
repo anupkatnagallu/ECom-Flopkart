@@ -1,0 +1,28 @@
+.Header {
+    display: flex;
+    background-color: #40241a;
+    color: white;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Header h2 {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.MainNav {
+    flex: 1;
+    color: white;
+}
+
+.Nav {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.Active {
+    color: rgb(245, 170, 127);
+}
