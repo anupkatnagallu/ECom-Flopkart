@@ -2,3 +2,15 @@
     margin: 20px;
     width: 25%;
 }
+
+.ItemDetails h3 {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.ItemDetails img {
+    height: 200px;
+}

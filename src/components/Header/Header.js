@@ -9,7 +9,7 @@ const Header = props => {
                 <NavLink to='/home' className={classes.Nav} activeClassName={classes.Active}>Home</NavLink>
                 <NavLink to='/additem' className={classes.Nav} activeClassName={classes.Active}>Add Item</NavLink>
             </div>
-            <NavLink to='/cart' className={classes.Nav} activeClassName={classes.Active}>Cart: {0}</NavLink>
+            <NavLink to='/cart' className={classes.Nav} activeClassName={classes.Active}>Cart: {props.count}</NavLink>
 
         </header>
     );
